@@ -1,0 +1,13 @@
+query Hero {
+    hero {
+        id
+        title
+        subtitle
+        description
+        action
+        image {
+            id
+            type
+        }
+    }
+}

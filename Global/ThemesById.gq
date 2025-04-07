@@ -1,0 +1,7 @@
+query ThemesById {
+    themes_by_id(id: 3) {
+        id
+        name
+        value
+    }
+}

@@ -1,0 +1,16 @@
+query HeroCardsById {
+    hero_cards_by_id(id: 3) {
+        id
+        title
+        description
+        action
+        image {
+            id
+            type
+        }
+        action_image {
+            id
+            type
+        }
+    }
+}
