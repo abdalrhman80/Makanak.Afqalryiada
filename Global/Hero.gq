@@ -9,5 +9,9 @@ query Hero {
             id
             type
         }
+        pattern_image {
+            id
+            type
+        }
     }
 }
