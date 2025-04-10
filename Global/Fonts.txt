@@ -1,0 +1,14 @@
+query Fonts {
+    font_families {
+        primary
+        secondary
+    }
+    font_weights {
+        primary
+        secondary
+    }
+    font_stacks {
+        primary
+        secondary
+    }
+}
